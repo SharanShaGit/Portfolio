@@ -18,8 +18,8 @@ export default function ContactMe() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_ar71r9e', 'template_dnpo35c', form.current, {
-        publicKey: 'rWQMd4LwL0yAwu3LL',
+      .sendForm('service_9km4nyi', 'template_pcf1w2a', form.current, {
+        publicKey: 'gz6jJIdrdN8mWf-fa',
       })
       .then(
         (result) => {
@@ -58,7 +58,7 @@ export default function ContactMe() {
         <form className="contact--form--container" ref={form} onSubmit={sendEmail}>
           <div className="container">
             <label htmlFor="first-name" className="contact--label">
-              <span className="text-md">First Name</span>
+              <span className="text-md">Name*</span>
               <input
                 type="text"
                 className="contact--input text-md"
@@ -68,7 +68,7 @@ export default function ContactMe() {
               />
             </label>
             <label htmlFor="email" className="contact--label">
-              <span className="text-md">Email</span>
+              <span className="text-md">Email*</span>
               <input
                 type="email"
                 className="contact--input text-md"
@@ -78,9 +78,9 @@ export default function ContactMe() {
               />
             </label>
             <label htmlFor="phone-number" className="contact--label">
-              <span className="text-md">phone-number</span>
+              <span className="text-md">Contact Number*</span>
               <input
-                type="number"
+                type="text"
                 className="contact--input text-md"
                 name="from_number"
                 id="phone-number"
@@ -104,7 +104,7 @@ export default function ContactMe() {
         </form>
         <div className={"contact-me-main"}>
           <div title={"Gmail"}><a
-            href="https://www.naveenkumarrnk2701@gmail.com"
+            href="https://www.visitsharan@gmail.com"
             className="navbar--content"
             target="_blank"
             rel="noreferrer"
@@ -119,19 +119,19 @@ export default function ContactMe() {
             ><SiWhatsapp className="social-media-icons" /></a></div>
           <div title={"Instagram"}>
             <a
-              href="https://www.instagram.com/_rnk46_/?igsh=ZjF2cGp4YnBwbXc%3D"
+              href="https://www.instagram.com/sharan_programmer_/"
               className="navbar--content"
               target="_blank"
               rel="noreferrer"
             ><RiInstagramFill className="social-media-icons" /></a></div>
-          <div title={"Linkedin"}>
+          {/* <div title={"Linkedin"}>
             <a
               href="https://www.linkedin.com/in/naveenkumar2701"
               className="navbar--content"
               target="_blank"
               rel="noreferrer"
             ><BsLinkedin className="social-media-icons" />
-            </a></div>
+            </a></div> */}
         </div>
       </section>
 

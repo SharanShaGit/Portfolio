@@ -62,7 +62,7 @@ function Footer() {
                 Projects
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="navbar--active-content"
                 spy={true}
@@ -74,7 +74,7 @@ function Footer() {
               >
                 Education
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 activeClass="navbar--active-content"
