@@ -38,7 +38,7 @@ function Navbar() {
     <>
       <nav className={`navbar ${navActive ? "active" : ""}`}>
         <div onClick={() => setModalShow(true)}>
-          NaveenKumar R
+          Sharan Parameswaran
         </div>
         <a
           className={`nav__hamburger ${navActive ? "active" : ""}`}

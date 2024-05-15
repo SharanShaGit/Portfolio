@@ -186,9 +186,9 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--content--container">
         <div className="footer-content-area">
-          <p className="footer--content">Made with by NaveenKumar R </p>
-          <p>+91 9384434781</p>
-          <p>www.naveenkumarrnk2701@gmail.com</p>
+          <p className="footer--content">Made with by Sharan Parameswaran </p>
+          <p>+91 6369548849</p>
+          <p>www.visitsharan@gmail.com</p>
         </div>
         <div className="footer--social--icon">
           <ul>
