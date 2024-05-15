@@ -1,0 +1,74 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/frontend.svg",
+      "title": "Front-End",
+      "description": "Developed responsive and user-friendly web interfaces using HTML, CSS, and JavaScript.Utilized React.js to build modular UI components and manage application state efficiently."
+    },
+    {
+      "id": "2",
+      "src": "./img/backend.svg",
+      "title": "Back-End",
+      "description": "Designed and developed RESTful APIs using Express.js to support frontend applications.Collaborated with frontend developers to integrate server-side logic with client-side applications.Optimized API performance by implementing caching and pagination techniques."
+    },
+    {
+      "id": "3",
+      "src": "./img/database.svg",
+      "title": "Database",
+      "description": "Proficient in MySQL database administration, including installation, configuration, and maintenance.Managed and maintained MySQL databases to ensure optimal performance and reliability."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/fingertip_logo.svg",
+      "title": "Fingertip",
+      "description": "Fingertip is a fintech project designed for corporate companies to facilitate financial transactions on web platform, maintain accountability, and track transaction history. Companies can input their own details, including bank, KYC and card information, as well as customer and vendor data. The platform enables payments to both customers and vendors, along with other utility payment."
+    },
+    {
+      "id": "2",
+      "src": "./img/traceability_logo.svg",
+      "title": "Traceability",
+      "description": "Our web application simplifies ledger management and enhances traceability for chain manufacturing companies. It includes features such as dynamic dashboard, comprehensive reports, user management, bulk data upload and tracking history functionalities."
+    },
+    {
+      "id": "3",
+      "src": "./img/NB_Bytes_Logo.svg",
+      "title": "NBytes",
+      "description": "Netbulk is a web application designed to streamline the management of user's ship and port details. Users can effortlessly add and manage voyage details for both time and voyage charters, enhancing operational efficiency. Additionally, the portal empowers users to maintain their stock holdings ,monitor future values and Mark-to-Market (MTM) details with ease. With its intuitive interface and robust features, Netbulk serves as a valuable tool for maritime professionals seeking efficient vessel and cargo management."
+    },
+    {
+      "id": "4",
+      "src": "./img/pdf-html-logo.png",
+      "title": "PDF to HTML",
+      "description": "PDF to HTML Conversion involved converting PDF book pages into HTML pages, primarily for students' learning purposes."
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "department": "SSLC - 2017",
+      "place": "N.S.M.V.P.S Hr.Sec School, Devakottai",
+      "grade": "89.5%"
+    },
+    {
+      "id": "2",
+      "department": "HSC - 2019",
+      "place": "N.S.M.V.P.S Hr.Sec School, Devakottai",
+      "grade": "61%"
+    },
+    {
+      "id": "3",
+      "department": "BCA - 2022",
+      "place": "Dr.SNS Rajalakshmi College of Arts and Science, Coimbatore",
+      "grade": "85%"
+    },
+    {
+      "id": "4",
+      "department": "MERN FullStack - 2022",
+      "place": "Qtree Technologies, Coimbatore",
+      "grade": ""
+    }
+  ]
+}
